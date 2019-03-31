@@ -80,6 +80,7 @@ public class system extends javax.swing.JFrame {//////////////
         jLabel1 = new javax.swing.JLabel();
         serch = new javax.swing.JTextField();
         delete_student = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         huosing_data = new javax.swing.JTable();
@@ -189,6 +190,8 @@ public class system extends javax.swing.JFrame {//////////////
             }
         });
 
+        jButton1.setText("add");
+
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
@@ -202,8 +205,10 @@ public class system extends javax.swing.JFrame {//////////////
                         .addComponent(serch, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(52, 52, 52)
-                        .addComponent(delete_student)))
-                .addContainerGap(1010, Short.MAX_VALUE))
+                        .addComponent(delete_student)
+                        .addGap(462, 462, 462)
+                        .addComponent(jButton1)))
+                .addContainerGap(642, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -212,9 +217,14 @@ public class system extends javax.swing.JFrame {//////////////
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(serch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(delete_student)
-                .addContainerGap(133, Short.MAX_VALUE))
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(delete_student))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(35, 35, 35)
+                        .addComponent(jButton1)))
+                .addContainerGap(116, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -883,6 +893,7 @@ System.exit(0);
     private javax.swing.JTextField fil_pict;
     private javax.swing.JTextField file_family;
     private javax.swing.JTable huosing_data;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
